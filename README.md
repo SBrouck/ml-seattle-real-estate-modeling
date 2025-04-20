@@ -64,7 +64,7 @@ The property `size` is by far the most impactful feature, followed by ZIP codes 
 
 To enhance the storytelling, I generated a map showing the average property prices by ZIP code using `geopandas` and `folium`. Here's the static version of that map:
 
-![Seattle Price Map](Image%2020-04-2025%20%C3%A0%2016.12.jpeg)
+![Seattle Price Map](Image 20-04-2025 à 16.12.jpeg)
 
 This visualization highlights spatial disparities in housing prices across neighborhoods.
 
