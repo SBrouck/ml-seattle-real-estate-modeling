@@ -64,11 +64,11 @@ The property `size` is by far the most impactful feature, followed by ZIP codes 
 
 To enhance the storytelling, I generated a map showing the average property prices by ZIP code using `geopandas` and `folium`. Here's the static version of that map:
 
-[![Seattle Price Map](Image 20-04-2025 à 16.12.jpeg)](https://github.com/SBrouck/ml-seattle-real-estate-modeling/blob/e1fe877040fec2d878325da94bb76e05743770d8/Image%2020-04-2025%20a%CC%80%2016.12.jpeg)
+![Seattle Price Map](https://github.com/SBrouck/ml-seattle-real-estate-modeling/blob/e1fe877040fec2d878325da94bb76e05743770d8/Image%2020-04-2025%20a%CC%80%2016.12.jpeg?raw=true)
 
 This visualization highlights spatial disparities in housing prices across neighborhoods.
 
-A fully interactive version of the map (using `folium`) is also available in the Jupyter notebook. In addition, I experimented with a partial HTML export that focuses on a selection of ZIP codes to improve readability and performance.
+➡️ A fully interactive version of the map (using `folium`) is also available directly in the Jupyter notebook. It includes a ZIP-code-level breakdown of average prices. In addition, a partial HTML export with selected neighborhoods was tested to improve readability and performance for lightweight deployment scenarios.
 
 ---
 
