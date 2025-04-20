@@ -38,7 +38,7 @@ All files are included in the repository and used directly in the Jupyter notebo
 
 Notably, the `size` of the property shows a strong positive correlation with `price`, while other features like `beds` and `baths` also contribute, albeit to a lesser extent.
 
-### Step 3: Modeling & Evaluation
+### Step 3: Modeling & Evaluation 📊
 
 I tested three regression models to predict property prices. Here are their results:
 
@@ -60,13 +60,15 @@ The property `size` is by far the most impactful feature, followed by ZIP codes 
 
 ---
 
-## Geospatial Visualizations (Bonus Insight)
+## Geospatial Visualizations (Bonus Insight) 🗺️
 
-To enhance the storytelling, I generated a map showing the average property prices by ZIP code using `geopandas` and `folium`. While the interactive version is still under consideration, the static map already provides useful spatial insights:
+To enhance the storytelling, I generated a map showing the average property prices by ZIP code using `geopandas` and `folium`. Here's the static version of that map:
 
-![Seattle Price Map](Image 20-04-2025 à 16.12.jpeg)
+![Seattle Price Map](Image%2020-04-2025%20%C3%A0%2016.12.jpeg)
 
-This map helps visualize pricing trends and shows which ZIP codes tend to command higher property values.
+This visualization highlights spatial disparities in housing prices across neighborhoods.
+
+A fully interactive version of the map (using `folium`) is also available in the Jupyter notebook. In addition, I experimented with a partial HTML export that focuses on a selection of ZIP codes to improve readability and performance.
 
 ---
 
@@ -103,7 +105,7 @@ I didn’t just run models—I experimented, validated, and selected based on pe
 
 ---
 
-## Next Steps
+## Next Steps 🚀
 
 Further directions could include integrating time-series analysis if updated datasets become available, experimenting with interpretability tools like SHAP, or improving the interactivity of the mapping component.
 
